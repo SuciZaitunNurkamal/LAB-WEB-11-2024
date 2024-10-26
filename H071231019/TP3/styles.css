@@ -1,0 +1,60 @@
+body {
+  font-family: "Poppins";
+}
+
+
+.navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2ea;
+    color: #234939;
+  }
+
+
+.hero {
+    background-image: url(assets/image/ArentBackground.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f5f7e9;
+    text-align: center;
+    filter: opocity(0.9);
+    /* blur: 2px; */
+  } 
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+.features {
+  background-color: #f2f2ea;
+  margin-top: 30px;
+  padding: 50px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+    background-color: #f2f2ea;
+    color: white;
+    bottom: 0;
+    justify-content: left;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    color : #234939;
+}
